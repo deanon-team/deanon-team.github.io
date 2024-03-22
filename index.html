@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Главная страница</title>
+        <style>
+            body {
+                
+                background-color: black;
+
+					  
+            }
+             h1 { 
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                font-size: 7vw;
+                color: #ffffff;
+             }
+             .aligncenter {
+                 text-align: center;
+                 
+             }
+
+    
+             h2 {
+                 text-align: center;
+                 color: #ffffff;
+                 font-family: 'Times New Roman', Times, serif;
+                 font-size: 6vw;
+                 }
+                 
+    
+    /* CSS */
+    .button-57 {  
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #000000;
+      color: #000000;
+      display: inline-block;
+      font-size: 15px;
+      line-height: 15px;
+      padding: 18px 18px 17px;
+      text-decoration: none;
+      cursor: pointer;
+      background: #ffffff;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      text-align: center;
+    }
+    
+    .button-57 span:first-child {
+      position: relative;
+      transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+      z-index: 10;
+      text-align: center;
+    }
+    
+    .button-57 span:last-child {
+      color: #ffffff;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+      z-index: 100;
+      opacity: 0;
+      top: 50%;
+      left: 50%;
+      transform: translateY(225%) translateX(-50%);
+      height: 14px;
+      line-height: 13px;
+      text-align: center;
+    }
+    
+    .button-57:after {
+      content: "";
+      position: absolute;
+      bottom: -50%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      transform-origin: bottom center;
+      transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+      transform: skewY(9.3deg) scaleY(0);
+      z-index: 50;
+      text-align: center;
+    }
+    
+    .button-57:hover:after {
+      transform-origin: bottom center;
+      transform: skewY(9.3deg) scaleY(2);
+      text-align: center;
+    }
+    
+    .button-57:hover span:last-child {
+      transform: translateX(-50%) translateY(-100%);
+      opacity: 1;
+      transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+      text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 4,5vw;
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff;
+    
+    }
+
+    .img-photo {
+        width: 40%;
+        height: 68%;
+    }
+
+    h4 {
+        font-size: 6vw;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .link-design {
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+
+    .photo-project {
+        text-align: center;
+       
+   
+        
+    }
+
+  h5 {
+font-family: 'Times New Roman', Times, serif;
+color: #ffffff;
+text-align: center;
+font-size: 2vw;
+}
+
+.text-linkSAD {
+	 text-align: center;
+	 font-size: 5vw;
+    color: #ffffff;
+	 font-family: 'Verdana';
+	 text-decoration:none;
+}
+
+.img1 {
+width: 100%;
+height: 100%;
+text-align: center;
+}
+
+pre {
+text-align: justify;
+}
+
+
+        </style>
+    </head>
+    <body>
+        
+        <h1>Hello! Мы deanon team!</h1>
+        <div class="aligncenter">
+         <imgsize>       
+        <img class="img-photo" src="deanon egor1.jpeg"  height="495" alt="фоточка">      
+        <img class="img-photo" src="deanon artem1.jpeg"  height="495" alt="фоточка">
+        <img class="img-photo" src="deanon andrew.jpeg"  height="495" alt="фоточка">
+        <img class="img-photo" src="deanon denchik.jpeg"  height="495" alt="фоточка">
+			<img class="img-photo" src="deanon artemii.jpeg"  height="495" alt="фоточка">
+			<img class="img-photo" src="who.jpeg"  height="495" alt="фоточка">
+    
+        
+    </imgsize>
+    </div>
+    <speacer>
+    </br>
+    </br>
+    </br>
+    </speacer>
+    <h2>У нас есть собственный язык программирования!</h2>
+    <h3>Язык создан для удобства работы с JavaScript внутри Html.<br /> Загрузить и научиться использовать язык можно ниже. <br /> 👇👇👇 </h3>
+    
+    <div class="aligncenter">
+        <button class="button-57" onclick="GoToDownloadDeanonScript()" role="button"><span class="text">Скачать DeanonScript</span><span>ادفعه!</span></button>
+    <script language ="DeanonScript"> 
+        function GoToDownloadDeanonScript() {
+            окновdoxbiner.оооЛокациюПробил.href = 'https://github.com/deanon-team/DeanonScript';
+        }
+    </script><script src="DeanonScript.js"></script>
+    </div>
+
+ <h3>*Эта кнопка написана на DeanonScript:</h3>
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(40, 42, 54); color: rgb(248, 248, 242);"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string" style="color: rgb(241, 250, 140);">"button-57"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string" style="color: rgb(241, 250, 140);">"GoToDownloadDeanonScript()"</span> <span class="hljs-attr">role</span>=<span class="hljs-string" style="color: rgb(241, 250, 140);">"button"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string" style="color: rgb(241, 250, 140);">"text"</span>&gt;</span>Скачать DeanonScript<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">span</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">span</span>&gt;</span>ادفعه!<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">script</span> <span class="hljs-attr">language</span> =<span class="hljs-string" style="color: rgb(241, 250, 140);">"DeanonScript"</span>&gt;</span><span class="actionscript">
+        <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(255, 121, 198); font-weight: 700;">осинт</span> <span class="hljs-title" style="color: rgb(241, 250, 140); font-weight: 700;">GoToDownloadDeanonScript</span><span class="hljs-params">()</span> </span>{
+            окновdoxbiner.оооЛокациюПробил.href = <span class="hljs-string" style="color: rgb(241, 250, 140);">'https://github.com/deanon-team/DeanonScript'</span>;
+        }
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">script</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string" style="color: rgb(241, 250, 140);">"DeanonScript.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(241, 250, 140); font-weight: 700;">script</span>&gt;</span></span></pre>
+
+
+    <speacer>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </speacer>
+
+    <h4>Наши проекты</h4>
+    <div class="link-design">
+        <a href="https://deanon-team.github.io/" class="text-linkSAD">Родники и свалки</a>
+    </div>
+    <speacer>
+    </br>
+    </speacer>
+    <div class="photo-project">
+                
+        <a href="https://deanon-team.github.io/"><img class="img1" src="project1.png" alt="фоточка"/></a>    
+        
+    
+        
+    
+    </div>
+	 </body>
+    </html>
